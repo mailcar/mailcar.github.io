@@ -5,6 +5,7 @@ description: "XG-Blog 的基本使用流程。"
 date: "2026-06-10"
 categories:
   - "website"
+  - "test"
 tags:
   - "xg-blog"
   - "quick-start"

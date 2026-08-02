@@ -19,6 +19,33 @@ function initProseLinks() {
   }
 }
 
+function initMetaSeparators() {
+  const meta = document.querySelector('.article-header .post-meta');
+
+  if (!meta) {
+    return;
+  }
+
+  const units = Array.from(
+    meta.querySelectorAll('.meta-date-segment, .meta-categories, .reading-stats, .post-views'),
+  );
+  let frameId;
+
+  const syncSeparators = () => {
+    cancelAnimationFrame(frameId);
+    frameId = requestAnimationFrame(() => {
+      for (let index = 0; index < units.length - 1; index += 1) {
+        const separator = units[index].querySelector(':scope > .meta-separator');
+        const wrapped = units[index + 1].getBoundingClientRect().top > units[index].getBoundingClientRect().top + 4;
+        separator?.classList.toggle('is-wrapped', wrapped);
+      }
+    });
+  };
+
+  new ResizeObserver(syncSeparators).observe(meta);
+  syncSeparators();
+}
+
 // 同步文章目录的当前阅读位置高亮。
 function initTocActive() {
   const tocLinks = Array.from(document.querySelectorAll('[data-toc-link]'));
@@ -166,7 +193,26 @@ function initMobileToc() {
     }
   };
 
+  const closeAfterScrollToTop = () => {
+    const deadline = performance.now() + 2000;
+    const waitForTop = () => {
+      if (window.scrollY <= 1) {
+        panel.classList.add('is-closing-after-top');
+        setOpen(false);
+        window.setTimeout(() => panel.classList.remove('is-closing-after-top'), 100);
+        return;
+      }
+
+      if (performance.now() < deadline) {
+        requestAnimationFrame(waitForTop);
+      }
+    };
+
+    requestAnimationFrame(waitForTop);
+  };
+
   toggle.addEventListener('click', () => setOpen(!open));
+  document.querySelector('[data-back-to-top]')?.addEventListener('click', closeAfterScrollToTop);
 
   window.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && open) {
@@ -292,6 +338,7 @@ function initTableMerge() {
 }
 
 initProseLinks();
+initMetaSeparators();
 initTocActive();
 initMobileToc();
 initCodeCopy();
