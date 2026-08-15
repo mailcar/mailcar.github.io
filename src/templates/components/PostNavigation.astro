@@ -1,0 +1,36 @@
+---
+import { getPostPath, type Post } from '../../features/core/posts';
+
+interface Props {
+  newer?: Post;
+  older?: Post;
+}
+
+const { newer, older } = Astro.props;
+---
+
+<nav class="post-pagination" aria-label="文章导航" data-pagefind-ignore>
+  {older ? (
+    <a class="post-pagination-link" href={getPostPath(older)}>
+      <span class="post-pagination-label">上一篇</span>
+      <span class="post-pagination-title">{older.data.title}</span>
+    </a>
+  ) : (
+    <div class="post-pagination-link is-placeholder" aria-hidden="true">
+      <span class="post-pagination-label">上一篇</span>
+      <span class="post-pagination-title">没有更多了</span>
+    </div>
+  )}
+
+  {newer ? (
+    <a class="post-pagination-link" href={getPostPath(newer)}>
+      <span class="post-pagination-label">下一篇</span>
+      <span class="post-pagination-title">{newer.data.title}</span>
+    </a>
+  ) : (
+    <div class="post-pagination-link is-placeholder" aria-hidden="true">
+      <span class="post-pagination-label">下一篇</span>
+      <span class="post-pagination-title">没有更多了</span>
+    </div>
+  )}
+</nav>

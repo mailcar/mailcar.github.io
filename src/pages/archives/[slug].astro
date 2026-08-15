@@ -4,10 +4,12 @@ import { render } from 'astro:content';
 import ArticleInteractions from '../../templates/components/ArticleInteractions.astro';
 import Comments from '../../templates/components/Comments.astro';
 import PostMeta from '../../templates/components/PostMeta.astro';
+import PostNavigation from '../../templates/components/PostNavigation.astro';
 import TableOfContents from '../../templates/components/TableOfContents.astro';
 import TwikooPageViews from '../../templates/components/TwikooPageViews.astro';
 import BaseLayout from '../../templates/layouts/BaseLayout.astro';
-import { getAllPosts, getPostCover, getPostPath, getPostSlug, getReadingStats } from '../../features/core/posts';
+import { getAllPosts, getAllPostsByDate, getPostCover, getPostPath, getPostSlug, getReadingStats } from '../../features/core/posts';
+import { getTag, getTagPath } from '../../features/core/taxonomy';
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -23,6 +25,10 @@ const cover = getPostCover(post);
 const seoImage = typeof cover === 'string' ? cover : (await getImage({ src: cover })).src;
 const readingStats = getReadingStats(post);
 const postPath = getPostPath(post);
+const posts = await getAllPostsByDate();
+const currentIndex = posts.findIndex((item) => getPostSlug(item) === getPostSlug(post));
+const newer = currentIndex > 0 ? posts[currentIndex - 1] : undefined;
+const older = currentIndex >= 0 && currentIndex < posts.length - 1 ? posts[currentIndex + 1] : undefined;
 const twikooEnabled = Boolean(import.meta.env.TWIKOO_ENV_ID?.trim());
 const pagefindSortTop = Math.max(0, Math.trunc(post.data.top ?? 0));
 const pagefindSortKey = `t${String(pagefindSortTop).padStart(6, '0')}-${post.data.date.toISOString()}`;
@@ -41,11 +47,24 @@ const pagefindSortKey = `t${String(pagefindSortTop).padStart(6, '0')}-${post.dat
       <span data-pagefind-sort={`xg-order:${pagefindSortKey}`}></span>
       <header class="article-header">
         <h1>{post.data.title}</h1>
-        <PostMeta date={post.data.date} categories={post.data.categories} tags={post.data.tags} readingStats={readingStats} showViews={twikooEnabled} />
+        <PostMeta date={post.data.date} categories={post.data.categories} tags={post.data.tags} readingStats={readingStats} showViews={twikooEnabled} showTags={false} />
       </header>
       <div class="prose">
         <Content />
       </div>
+      {post.data.tags.length > 0 && (
+        <div class="article-tags" aria-label="文章标签">
+          {post.data.tags.map((tagSlug) => {
+            const tag = getTag(tagSlug);
+            return (
+              <a class="meta-link tag" href={getTagPath(tag.slug)}>
+                #{tag.name}
+              </a>
+            );
+          })}
+        </div>
+      )}
+      <PostNavigation newer={newer} older={older} />
       <Comments enabled={post.data.comments} path={postPath} />
       <TwikooPageViews enabled={!post.data.comments} path={postPath} />
     </div>
