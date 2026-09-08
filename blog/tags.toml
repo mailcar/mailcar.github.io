@@ -1,0 +1,22 @@
+# 标签模板。复制为 blog/tags.toml 后可覆盖同 slug 标签的显示名称。
+# slug 需与文章 frontmatter 中的 tags 一致。
+
+[[tags]]
+slug = "hello-world"
+name = "hello-world"
+
+[[tags]]
+slug = "astro"
+name = "Astro"
+
+[[tags]]
+slug = "markdown"
+name = "Markdown"
+
+[[tags]]
+slug = "deploy"
+name = "部署"
+
+[[tags]]
+slug = "ai"
+name = "AI"
