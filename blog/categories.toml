@@ -3,20 +3,20 @@
 
 [[categories]]
 slug = "mail"
-name = "油箱"
+name = "Mail"
 description = "有油、无油的箱子"
 
 [[categories]]
 slug = "host"
-name = "煮鸡"
+name = "Host"
 description = "VPS搭窝、CDN建博、Linux实践"
 
 [[categories]]
 slug = "domain"
-name = "渔鸣"
+name = "Domain"
 description = "无米的鱼，亦有炊烟"
 
 [[categories]]
 slug = "media"
-name = "煤厂"
+name = "Median"
 description = "小白的煤矿、汪汪的煤厂。"
