@@ -7,6 +7,26 @@ name = "建站"
 description = "静态站、博客、域名、CDN 与 SEO 实践。"
 
 [[categories]]
+slug = "think"
+name = "Think"
+description = "灵光乍现、心头突显或思维活动的碎片......"
+
+[[categories]]
+slug = "walk"
+name = "Walk"
+description = "诗和远方、身体或灵魂总有一个在路上......"
+
+[[categories]]
+slug = "baby"
+name = "Baby"
+description = "花有绽放、人在成长，一路上会有许多故事正在发生......"
+
+[[categories]]
+slug = "study"
+name = "Study"
+description = "看书是学习、吃饭睡觉亦是，终其一生都在学习的路上......"
+
+[[categories]]
 slug = "tech"
 name = "技术"
 description = "技术实践、工具和开发记录。"
