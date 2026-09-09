@@ -4,15 +4,67 @@
 # fallback 是内部兜底兼容字段，普通用户不用写。
 
 [[menu]]
-label = "首页"
+label = "Home"
 href = "/"
 
 [[menu]]
-label = "示例文章"
-href = "/archives/hello-world"
+label = "Think"
+href = "/"
 
 [[menu]]
-label = "示例页面"
+label = "Walk"
+href = "/"
+
+[[menu]]
+label = "Baby"
+href = "/"
+
+[[menu.sub]]
+label = "Study"
+href = "/"
+
+[[menu.sub]]
+label = "Memo"
+href = "/"
+
+[[menu.sub]]
+label = "Hobby"
+href = "/"
+
+[[menu.sub]]
+label = "Travel"
+href = "/"
+
+[[menu]]
+label = "Write"
+href = "/"
+
+[[menu.sub]]
+label = "Note"
+href = "/"
+
+[[menu.sub]]
+label = "Tech"
+href = "/"
+
+[[menu]]
+label = "Mark"
+href = "/mark"
+
+[[menu]]
+label = "Talk"
+href = "/talk"
+
+[[menu]]
+label = "Demo"
+href = "/"
+
+[[menu.sub]]
+label = "文章"
+href = "/archives/hello-world"
+
+[[menu.sub]]
+label = "页面"
 href = "/demo-page"
 
 [[menu]]
