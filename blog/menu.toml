@@ -4,23 +4,23 @@
 # fallback 是内部兜底兼容字段，普通用户不用写。
 
 [[menu]]
-label = "Mail"
+label = "📮Mail"
 href = "/categories/mail/"
 
 [[menu]]
-label = "Host"
+label = "🚀Host"
 href = "/categories/host"
 
 [[menu]]
-label = "Domain"
+label = "🎙Domain"
 href = "/categories/domain"
 
 [[menu]]
-label = "Media"
+label = "🎞Media"
 href = "/categories/media"
 
 [[menu]]
-label = "Tool"
+label = "🛠Tool"
 href = ""
 
 [[menu.sub]]
