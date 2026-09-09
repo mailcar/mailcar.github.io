@@ -56,8 +56,8 @@ label = "Talk"
 href = "/talk"
 
 [[menu]]
-label = "Demo"
-href = "/"
+label = "Tool"
+href = ""
 
 [[menu.sub]]
 label = "文章"
@@ -66,10 +66,6 @@ href = "/archives/hello-world"
 [[menu.sub]]
 label = "页面"
 href = "/demo-page"
-
-[[menu]]
-label = "更多"
-href = ""
 
 [[menu.sub]]
 label = "归档"
