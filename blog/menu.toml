@@ -20,10 +20,6 @@ label = "Media"
 href = "/categories/media"
 
 [[menu]]
-label = "Talk"
-href = "/talk"
-
-[[menu]]
 label = "Tool"
 href = ""
 
@@ -50,8 +46,3 @@ href = "/tags"
 [[menu.sub]]
 label = "友链"
 href = "/links"
-
-[[menu]]
-label = "项目地址"
-href = "https://github.com/verkyer/xg-blog"
-target = "blank"
