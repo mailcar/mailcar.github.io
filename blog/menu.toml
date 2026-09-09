@@ -4,10 +4,6 @@
 # fallback 是内部兜底兼容字段，普通用户不用写。
 
 [[menu]]
-label = "Home"
-href = "/"
-
-[[menu]]
 label = "Think"
 href = "/"
 
