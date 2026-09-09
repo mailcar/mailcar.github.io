@@ -4,7 +4,7 @@ slug: "hello-world"
 description: "一篇用于介绍 XG-Blog 项目定位、核心特性和快速上手方式的欢迎文章。"
 date: "2026-06-09"
 categories:
-  - "website"
+  - "host"
 tags:
   - "xg-blog"
   - "astro"
