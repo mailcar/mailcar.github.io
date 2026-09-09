@@ -43,3 +43,9 @@ url = "https://mailbed.com/"
 desc = "About Mail&Host。"
 icon = "https://img.mans.cc/img/dataer.ico"
 
+[[links]]
+group = "Blog"
+name = "漫斯书咖"
+url = "https://mailbed.com/"
+desc = "Collection of resources and tools"
+icon = "https://img.mans.cc/img/book.ico"
