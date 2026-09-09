@@ -4,48 +4,20 @@
 # fallback 是内部兜底兼容字段，普通用户不用写。
 
 [[menu]]
-label = "Think"
-href = "/categories/think/"
+label = "Mail"
+href = "/categories/mail/"
 
 [[menu]]
-label = "Walk"
-href = "/categories/walk"
+label = "Host"
+href = "/categories/host"
 
 [[menu]]
-label = "Baby"
-href = "/categories/baby"
-
-[[menu.sub]]
-label = "Study"
-href = "/categories/study"
-
-[[menu.sub]]
-label = "Memo"
-href = "/"
-
-[[menu.sub]]
-label = "Hobby"
-href = "/"
-
-[[menu.sub]]
-label = "Travel"
-href = "/"
+label = "Domain"
+href = "/categories/domain"
 
 [[menu]]
-label = "Write"
-href = "/"
-
-[[menu.sub]]
-label = "Note"
-href = "/"
-
-[[menu.sub]]
-label = "Tech"
-href = "/"
-
-[[menu]]
-label = "Mark"
-href = "/mark"
+label = "Media"
+href = "/categories/media"
 
 [[menu]]
 label = "Talk"
