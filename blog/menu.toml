@@ -9,15 +9,15 @@ href = "/categories/think"
 
 [[menu]]
 label = "Walk"
-href = "/"
+href = "/categories/walk"
 
 [[menu]]
 label = "Baby"
-href = "/"
+href = "/categories/baby"
 
 [[menu.sub]]
 label = "Study"
-href = "/"
+href = "/categories/study"
 
 [[menu.sub]]
 label = "Memo"
