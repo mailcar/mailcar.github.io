@@ -5,7 +5,7 @@
 
 [[menu]]
 label = "📮Mail"
-href = "/categories/mail/"
+href = "/categories/mail"
 
 [[menu]]
 label = "🚀Host"
