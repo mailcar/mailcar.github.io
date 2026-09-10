@@ -5,7 +5,6 @@ description: "被Makeuseof.com评为3个最安全的加密邮箱，Protonmail、
 date: "2026-09-10"
 categories:
   - "mail"
-  - "test"
 tags:
   - "mail"
   - "free"
