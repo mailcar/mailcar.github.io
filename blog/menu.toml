@@ -29,7 +29,7 @@ href = "/archives/hello-world"
 
 [[menu.sub]]
 label = "页面"
-href = "/about"
+href = "/blog/about"
 
 [[menu.sub]]
 label = "归档"
