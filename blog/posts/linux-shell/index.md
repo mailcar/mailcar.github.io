@@ -1,7 +1,7 @@
 ---
 title: "常用Linux脚本"
 slug: "linux-shell"
-description: "新开主机测评，IP质量测试，面板安装、端口更换、密码更新......常用自用一些Linux脚本"
+description: "新开主机测评，IP质量测试，面板安装、端口更换、密码更新......自用一些Linux脚本"
 date: "2026-09-10"
 categories:
   - "host"
