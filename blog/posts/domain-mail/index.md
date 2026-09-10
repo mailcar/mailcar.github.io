@@ -9,7 +9,7 @@ categories:
 tags:
   - "mail"
   - "free"
-cover: "./img/domail.jpg"
+cover: "./img/domail.png"
 top: 1
 comments: true
 ---
