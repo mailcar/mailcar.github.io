@@ -17,37 +17,37 @@ comments: true
 
 ## 一、主机性能测评
 
-### 1、切换root权限
+#### 1、切换root权限
 
     sudo -i
 
-### 2、查看主机CPU型号
+#### 2、查看主机CPU型号
 
     lscpu
 
-### 3、查看系统负载状态
+#### 3、查看系统负载状态
 
     curl -sL yabs.sh | bash -s -- -5i#####
 
-### 4、IP质量测试
+#### 4、IP质量测试
 
     bash <(curl -Ls https://Check.Place) -I
 
-### 5、IP解锁测试
+#### 5、IP解锁测试
 
     bash <(curl -sL Media.Check.Place)   
 
 ` 选择“0”，测试国际解锁状态`
 
-### 6、测试三网情况
+#### 6、测试三网情况
 
     bash <(curl -sL Net.Check.Place) 
 
-### 7、融合怪-主机测速
+#### 7、融合怪-主机测速
 
     export noninteractive=true && curl -L https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh && chmod +x goecs.sh && bash goecs.sh env && bash goecs.sh install && goecs
 
-### 8、融合怪-主机信息查询
+#### 8、融合怪-主机信息查询
 
     export noninteractive=true && curl -L https://cdn.spiritlhl.net/https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh && chmod +x goecs.sh && bash goecs.sh env && bash goecs.sh install && goecs -menu=false -comm=false -email=false -security=false
 
