@@ -22,11 +22,6 @@ comments: true
 
 ......
 
-
-![XG-Blog 内容组织示意图](./img/hello-world-1.svg)
-
-- 项目地址：<https://github.com/verkyer/xg-blog>
-
 ## 国内
 
 163.com: https://mail.163.com/
