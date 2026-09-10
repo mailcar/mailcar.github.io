@@ -11,7 +11,7 @@ tags:
   - "free"
   - "safe-mail"
   - "encrypt-mail"
-cover: "./img/encmail.png"
+cover: "./img/encmail.jpg"
 top: 0
 comments: true
 ---
