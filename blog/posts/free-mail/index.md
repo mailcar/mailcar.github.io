@@ -6,7 +6,6 @@ date: "2026-09-10"
 categories:
   - "mail"
 tags:
-  - "blog"
   - "mail"
   - "free"
 cover: "./img/email.jpg"
