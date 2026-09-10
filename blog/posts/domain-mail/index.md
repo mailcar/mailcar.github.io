@@ -5,7 +5,6 @@ description: "常用国内外域名邮箱(Domain Mail)的信息概述。"
 date: "2026-09-10"
 categories:
   - "mail"
-  - "test"
 tags:
   - "mail"
   - "free"
