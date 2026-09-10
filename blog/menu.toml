@@ -24,11 +24,7 @@ label = "🛠工具"
 href = ""
 
 [[menu.sub]]
-label = "文章"
-href = "/archives/hello-world"
-
-[[menu.sub]]
-label = "页面"
+label = "关于"
 href = "/about"
 
 [[menu.sub]]
