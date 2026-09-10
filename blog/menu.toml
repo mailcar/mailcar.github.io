@@ -20,7 +20,7 @@ label = "🎞食材"
 href = "/categories/media"
 
 [[menu]]
-label = "🛠工具"
+label = "🛠葫芦"
 href = ""
 
 [[menu.sub]]
