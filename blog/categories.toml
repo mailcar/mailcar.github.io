@@ -4,7 +4,7 @@
 [[categories]]
 slug = "mail"
 name = "Mail"
-description = "有油、无油的箱子"
+description = "国内外常用免费邮箱资源，自建域名邮箱搭建测试"
 
 [[categories]]
 slug = "host"
@@ -14,7 +14,7 @@ description = "VPS搭窝、CDN建博、Linux实践"
 [[categories]]
 slug = "domain"
 name = "Domain"
-description = "无米的鱼，亦有炊烟"
+description = "免费域名信息，域名信息汇集"
 
 [[categories]]
 slug = "media"
