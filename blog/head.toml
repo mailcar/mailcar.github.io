@@ -4,7 +4,7 @@
 [[head]]
 html = '''
 <script>
-  console.log('欢迎使用 XG-Blog ！');
+  console.log('欢迎来到 邮葫芦 ');
 </script>
 '''
 
