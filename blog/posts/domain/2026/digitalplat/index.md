@@ -37,13 +37,13 @@ Digitalplat是由Edward Hsing在上学期间创立，如今已运营多年，免
 
 | Register  | Plan  |
 | :------------: | :------------: |
-| ![digi_cf_regi](https://img.mans.cc/mail/img/2026/03/digi_cf_regi.png)  |  ![digi_cf_free](https://img.mans.cc/mail/img/2026/03/digi_cf_free.png) |
+| ![digi_cf_regi](./img/digi_cf_regi.png)  |  ![digi_cf_free](./img/digi_cf_free.png) |
 
 5、进入需要激活的页面，一秒钟都不要犹豫，用数钱的右手点击继续前往激活，你所需要的NS服务器地址就出现在你的面前，两个地址喜欢那个就把那个地址放在NS1，拷贝两个地址回到刚才的注册页面直接输入，两个地址都输入后点击【注册】，就成功了。
 
 | Active  | DNS  |
 | :------------: | :------------: |
-| ![digi_cf_activ](https://img.mans.cc/mail/img/2026/03/digi_cf_activ.png)  | ![digi_cf_dns](https://img.mans.cc/mail/img/2026/03/digi_cf_dns.png)  |
+| ![digi_cf_activ](./img/digi_cf_activ.png)  | ![digi_cf_dns](./img/digi_cf_dns.png)  |
 
 6、在Digitalplat的左侧工具栏域名列表中可以看到域名的注册信息，在Cloudflare的个人主页【管理域】内可以看到托管域名的运行状态，同正常域名一样，可自行添加解析即可，如[ems.dpdns.org](http://ems.dpdns.org "ems.dpdns.org")
 
@@ -54,6 +54,6 @@ Digitalplat是由Edward Hsing在上学期间创立，如今已运营多年，免
 2、推广1个新用户注册可再增加1个名额，以此类推；
 
 3、同正常域名一样，二级域名有一年的有效期，注册半年后可进行续期，当然还是免费的。
-![digi_github](https://img.mans.cc/mail/img/2026/03/digi_github.png)
+![digi_github](./img/digi_github.png)
 
 ![END](/boduan.gif)</center>
