@@ -2,7 +2,7 @@
 title: "常用域名邮箱(Domain Mail)"
 slug: "domain-mail"
 description: "常用国内外域名邮箱(Domain Mail)的信息概述。"
-date: "2026-09-10"
+date: "2025-09-10"
 categories:
   - "mail"
 tags:
@@ -42,3 +42,5 @@ comments: true
 |  IMAP | 支持  |  支持 | 支持  |
 | SMTP | 支持  |  支持 | 支持  |
 | Exchange  | 支持  | 不支持  | 不支持  |
+
+![END](/boduan.gif)</center>
