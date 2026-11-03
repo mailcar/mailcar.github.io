@@ -2,7 +2,7 @@
 title: "3个安全的加密邮箱"
 slug: "encrypt-mail"
 description: "被Makeuseof.com评为3个最安全的加密邮箱，Protonmail、Tutanota和Mailfence"
-date: "2026-09-10"
+date: "2025-09-10"
 categories:
   - "mail"
 tags:
@@ -70,3 +70,5 @@ comments: true
 其它功能：徒步，支持Microsoft’s Exchange ActiveSync、支持OpenPGP、日历、网盘；
 
 付费用户支持POPS、IMAPS和SMTPS
+
+![END](/boduan.gif)</center>
