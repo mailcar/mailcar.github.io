@@ -27,7 +27,7 @@ Digitalplat是由Edward Hsing在上学期间创立，如今已运营多年，免
 ## 注册过程
 
 1、登录Digitalplat官网或直接进入注册网址：[https://dash.domain.digitalplat.org/auth/login](https://dashboard.digitalplat.org/signup?ref=knTZjyljYg "https://dash.domain.digitalplat.org/auth/login") 输入信息注册即可；
-![digi_regi](https://img.mans.cc/mail/img/2026/03/digi_regi.png)
+![digi_regi](./img/digi_regi.png)
 
 2、注册成功登陆后点击左则菜单栏【注册】，填入心仪的域名，选择喜欢的后缀，点击检查可用性，出现需要填写NS地址代表域名可注册；
 
