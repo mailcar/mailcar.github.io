@@ -9,7 +9,7 @@ tags:
   - "mail"
   - "free"
   - "Edumail"
-cover: "./img/cca-college.jpg"
+cover: "./img/ca-college.jpg"
 top: 0
 comments: true
 ---
