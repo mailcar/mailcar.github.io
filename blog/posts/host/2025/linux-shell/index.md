@@ -69,3 +69,4 @@ comments: true
 
     sudo ufw reload
 
+![END](/boduan.gif)</center>
