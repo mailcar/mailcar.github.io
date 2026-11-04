@@ -1,7 +1,7 @@
 ---
 title: "常用域名邮箱(Domain Mail)"
 slug: "domain-mail"
-description: "常用国内外域名邮箱(Domain Mail)的信息概述。"
+description: "常用国内外域名邮箱(Domain Mail)可配置的容量、帐户、空间等信息，加密、安全、验证等可支持的相关功能，信息概述。"
 date: "2025-09-10"
 categories:
   - "mail"
