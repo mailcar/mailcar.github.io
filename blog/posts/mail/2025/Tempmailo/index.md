@@ -1,6 +1,6 @@
 ---
 title: "Tempmailo.com-临时虚拟邮箱"
-slug: "tempmail"
+slug: "tempmailo"
 description: "Tempmailo.com提供临时、匿名、免费、安全、一次性的电子邮件地址，保护您的数据和隐私免受可疑网站和服务的侵害，并保护您的电子邮件免受不需要的消息和垃圾邮件的侵害，使用临时电子邮件地址将不必再担心了。"
 date: "2025-09-15"
 categories:
