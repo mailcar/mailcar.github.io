@@ -6,9 +6,9 @@ date: "2025-09-11"
 categories:
   - "mail"
 tags:
-  - "mail"
-  - "safe-mail"
-  - "encrypt-mail"
+  - "邮箱"
+  - "安全邮箱"
+  - "加密邮箱"
 cover: "./img/mailo_com.png"
 top: 0
 comments: true
