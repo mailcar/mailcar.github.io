@@ -8,6 +8,7 @@ categories:
 tags:
   - "邮箱"
   - "免费"
+  - "域名邮箱"
 cover: "./img/domail.png"
 top: 1
 comments: true
