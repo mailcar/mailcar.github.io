@@ -16,7 +16,7 @@ comments: true
 
 ## 邮箱特点
 
-[AsterMail](https://astermail.org/ "AsterMail")是一款完全端到端加密、量子安全、开源的电子邮件服务，邮箱后缀为“astermail.org”和“aster.cx”。
+[AsterMail](https://astermail.org/ "AsterMail")是一款完全端到端加密、量子安全、开源的电子邮件服务，邮箱后缀为“**astermail.org**”和“**aster.cx**”。
 
 注意！目前算是重新开放注册，如前期已有注册的邮箱帐户目前可能无法登录，需要重新注册。
 
@@ -28,7 +28,7 @@ comments: true
 
 ## 邮箱注册
 
-打开网址https://app.astermail.org/register， 点击“Create free account”按钮进入邮箱注册页面：
+打开网址https://app.astermail.org/register， 点击“**Create free account**”按钮进入邮箱注册页面：
 
 |Register  | Name  |
 | :------------: | :------------: |
