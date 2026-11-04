@@ -6,8 +6,8 @@ date: "2025-09-10"
 categories:
   - "mail"
 tags:
-  - "mail"
-  - "free"
+  - "邮箱"
+  - "免费"
 cover: "./img/domail.png"
 top: 1
 comments: true

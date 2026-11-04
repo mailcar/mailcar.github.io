@@ -6,9 +6,9 @@ date: "2025-09-10"
 categories:
   - "mail"
 tags:
-  - "mail"
-  - "free"
-  - "Edumail"
+  - "邮箱"
+  - "免费"
+  - "教育邮箱"
 cover: "./img/ca-college.jpg"
 top: 0
 comments: true

@@ -6,10 +6,10 @@ date: "2025-09-10"
 categories:
   - "mail"
 tags:
-  - "mail"
-  - "free"
-  - "safe-mail"
-  - "encrypt-mail"
+  - "邮箱"
+  - "免费"
+  - "安全邮箱"
+  - "加密邮箱"
 cover: "./img/encmail.jpg"
 top: 0
 comments: true
