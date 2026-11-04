@@ -6,7 +6,7 @@ date: "2026-07-07"
 categories:
   - "domain"
 tags:
-  - "domain"
+  - "域名"
   - "cloudflare"
   - "Digitalplat"
 cover: "./img/digitalplat.png"
