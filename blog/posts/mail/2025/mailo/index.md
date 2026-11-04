@@ -1,7 +1,7 @@
 ---
 title: "Mailo.com-安全加密邮箱"
 slug: "mailo"
-description: "**Mailo.com是一家法国的公司，在2017年底的时候还是叫Net-C,后来改名叫Mailo了，是法国Mail Object公司运营20年的成果，Mailo使用由Mail Object开发的技术。该服务在法国一个专门的主机中心托管，有24小时的监督，支持中文。"
+description: "Mailo.com是一家法国的公司，在2017年底的时候还是叫Net-C,后来改名叫Mailo了，是法国Mail Object公司运营20年的成果，Mailo使用由Mail Object开发的技术。该服务在法国一个专门的主机中心托管，有24小时的监督，支持中文。"
 date: "2025-09-11"
 categories:
   - "mail"
