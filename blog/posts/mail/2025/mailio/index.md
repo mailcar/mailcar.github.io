@@ -1,7 +1,7 @@
 ---
 title: "Mail.io-端到端加密邮箱"
 slug: "mailio"
-description: "**Mail.io是一款免费可支持端到端加密的邮箱，暂不支持POP3、IMAP和SMTP协议，也没有客户端，目前只能网页登陆，容量大小为500MB，可以付费扩容到15GB，价格为10美元每月......"
+description: "Mail.io是一款免费可支持端到端加密的邮箱，暂不支持POP3、IMAP和SMTP协议，也没有客户端，目前只能网页登陆，容量大小为500MB，可以付费扩容到15GB，价格为10美元每月......"
 date: "2025-09-11"
 categories:
   - "mail"
