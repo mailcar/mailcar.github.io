@@ -1,7 +1,7 @@
 ---
 title: "3个安全的加密邮箱"
 slug: "encrypt-mail"
-description: "被Makeuseof.com评为3个最安全的加密邮箱，Protonmail、Tutanota和Mailfence"
+description: "被Makeuseof.com评为3个最安全的加密邮箱提供商，Protonmail、Tutanota和Mailfence"
 date: "2025-09-10"
 categories:
   - "mail"
